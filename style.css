@@ -366,6 +366,7 @@ A maioria dos smartphones móveis: (min-width:320px) and (max-width: 480px)*/
 
   html {
     font-size: 55%;
+    overflow-x: hidden;
   }
 
 }
