@@ -48,7 +48,7 @@ sr.reveal('.learn-more', {
 
 sr.reveal('.rocket-img', {
   origin: 'bottom',
-  distance: '500px',
+  distance: '80px',
   duration: 2000,
   reset: true
 })

@@ -15,9 +15,7 @@ html {
 
 body {
   background: #040327;
-  width: 100vw;
   overflow-x: hidden;
-  overflow-y: auto;
 }
 
 input {
@@ -26,18 +24,19 @@ input {
 
 /* BANNER */
 
-#banner {
-  width: 100%;
-}
 
 #banner header{
   margin-top: 2.4rem;
-  margin-left: 104px;
+  margin-left: 10.4rem;
+}
+
+header img {
+  height: 4rem;
 }
 
 .main-info {
-  margin-top: 30px;
-  margin-left: 104px;
+  margin-top: 3rem;
+  margin-left: 10.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -46,7 +45,7 @@ input {
 
 .text-info h2{
   color: #F5D15F;
-  letter-spacing: 5px;
+  letter-spacing: 0.5rem;
   font-size: 1.8rem;
   font-weight: 500;
 }
@@ -58,26 +57,29 @@ input {
 }
 
 .text-info p{
-  margin-top: 20px;
+  margin-top: 2rem;
   color: #D5D5DB;
   font-size: 2rem;
   font-weight: 400;
 }
 
 .text-info button {
-  padding: 10px 50px;
-  margin-top: 20px;
+  padding: 1rem 5rem;
+  margin-top: 2rem;
   background: #E85937;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.4rem;
   color: #FFF;
   font-weight: 700;
   font-size: 1.6rem;
   cursor: pointer;
 }
 
-.astronaut-img img{
-  transform: translate(0, -90px);
+.astronaut-img {
+  transform: translate(1rem, -9rem);
+}
+
+.astronaut-img img {
   height: 50rem;
 }
 
@@ -85,11 +87,15 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 104px;
+  margin: 0 10.4rem;
+}
+
+.informative-card1 img, .informative-card2 img, .informative-card3 img {
+ height: 5rem;
 }
 
 .informative-card1, .informative-card2 p {
-  max-width: 216px;
+  max-width: 21.6rem;
   color: #D5D5DB;
   font-size: 1.6rem;
 }
@@ -107,20 +113,21 @@ input {
 }
 
 .mars-container {
-  padding-top: 75px;
+  padding-top: 7.5rem;
 
   background: url(assets/lineslines.svg);
   background-repeat: no-repeat;
-  background-position: 0 150px;
+  background-position: 0 10rem;
   background-size: 50rem;
 }
 
 .mars {
   height: 60rem;
+  margin-left: 10.4rem;
 }
 
 .mars-info {
-  margin-right: 104px;
+  margin-right: 10.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -133,7 +140,7 @@ input {
 
 .mars-text h3 {
     color: #F5D15F;
-    letter-spacing: 5px;
+    letter-spacing: 0.5rem;
     font-size: 1.8rem;
     font-weight: 500;
 }
@@ -141,21 +148,25 @@ input {
 .mars-text h2 {
   font-size: 3.2rem;
   color: #FFF;
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 .mars-text p {
   font-size: 1.6rem;
   color: #D5D5DB;
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 .learn-more {
-  margin-left: 104px;
+  margin-left: 10.4rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 150px 0 120px;
+  padding: 15rem 0 20rem;
+}
+
+.simple-text img{
+  height: 4rem;
 }
 
 .simple-text h2{
@@ -163,7 +174,7 @@ input {
   color: #FFF;
   font-weight: 700;
 
-  padding: 20px 0;
+  padding: 2rem 0;
 }
 
 .simple-text a {
@@ -175,15 +186,14 @@ input {
 
 .carrousel  {
   display: flex;
-  gap: 24px;
+  gap: 2.4rem;
   overflow-x: auto;
   width: 100%;
-  margin-left: 200px;
- 
+  margin-left: 20rem;
 }
 
 .carrousel img{
-  height: 250px;
+  height: 25rem;
 }
 
 
@@ -192,21 +202,16 @@ input {
  
 #form-section {
   background: #0D0E13;
-  width: 100%;
-}
-
-.form-container {
-  padding-top: 75px;
 }
 
 .form-main-content {
   display: flex;
   justify-content: space-between;
-  margin: 0 104px;
+  margin: 0 10.4rem
 }
 
 .rocket-img img {
-  height: 900px;
+  height: 90rem;
 }
 
 .content {
@@ -221,9 +226,9 @@ input {
   background: #0E0D40;
   color: #FFF;
 
-  border-radius: 20px;
+  border-radius: 2rem;
 
-  padding: 50px;
+  padding: 5rem;
 }
 
 .content img {
@@ -233,16 +238,16 @@ input {
 .content h3 {
   font-weight: 500;
   font-size: 2.4rem;
-  max-width: 250px;
+  max-width: 25rem;
 }
 
 .content p {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 1.4rem;
-  max-width: 270px;
+  max-width: 27rem;
   opacity: 70%;
-  padding: 10px 0;
+  padding: 1rem 0;
 }
 
 .content label {
@@ -252,19 +257,19 @@ input {
 }
 
 .content input {
-  height: 40px;
-  border: 1px solid #D5D5DB;
+  height: 4rem;
+  border: 0.1rem solid #D5D5DB;
   background: transparent;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 .content button {
-  height: 50px;
+  height: 5rem;
   color: #FFF;
   font-weight: 700;
   background: #E85937;
   border: none;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   font-size: 1.4rem;
   cursor: pointer;
 }
@@ -276,56 +281,60 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"] + label {
-  margin: 10px 0;
+  margin: 1rem 0;
   position: relative;
   cursor: pointer;
-  padding-left: 30px;
+  padding-left: 3rem;
 }
 
 input[type="checkbox"] + label::before {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 1.5rem;
+  height: 1.5rem;
   left: 0;
-  bottom: 1.5px;
-  border: 1.5px solid #FFF;
-  border-radius: 5px;
+  bottom: 0.15rem;
+  border: 0.15rem solid #FFF;
+  border-radius: 0.5rem;
 }
 
 input[type="checkbox"]:checked + label::after {
   content: "";
   position: absolute;
-  left: 7px;
-  bottom: 8px;
-  width: 3px;
-  height: 8px;
-  border-right: solid 1.5px #FFF;
-  border-bottom: solid 1.5px #FFF;
+  left: 0.8rem;
+  bottom: 0.8rem;
+  width: 0.3rem;
+  height: 0.8rem;
+  border-right: solid 0.15rem #FFF;
+  border-bottom: solid 0.15rem #FFF;
   transform: rotate(45deg);
 }
 
 form img {
-  height: 48px;
+  height: 4.8rem;
 }
 
+.spacey {
+  height: 4rem;
+}
+ 
 nav {
-  margin: 0 104px;
+  margin: 0 10.4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-bottom: 30px;
+  padding-bottom: 3rem;
 }
 
 ul {
   display: flex;
-  gap: 32px;
+  gap: 3.2rem;
   list-style-type: none;
 }
 
 .social-icons {
   display: flex;
-  gap: 24px;
+  gap: 2.4rem;
 }
 
 li a {
@@ -337,7 +346,7 @@ li a {
 }
 
 .social-icons img {
-  height: 20px;
+  height: 2rem;
   cursor: pointer;
 }
 
@@ -353,24 +362,145 @@ Tablets, ipads: (min-width: 768px) and (max-width: 1024px)
 Tablets de baixa resolução, celulares: (min-width: 482px) and (max-width: 767px)
 A maioria dos smartphones móveis: (min-width:320px) and (max-width: 480px)*/
 
-@media (max-width: 1144px) {
+@media (max-width: 1205px) {
 
   html {
     font-size: 55%;
   }
+
 }
 
 @media (max-width: 1060px) {
 
   html {
-    font-size: 50%;
+    font-size: 45%;
   }
 }
 
 @media (max-width: 970px) {
 
   html {
+    font-size: 40%;
+  }
+}
+
+@media (max-width: 860px) {
+  html {
     font-size: 50%;
   }
 
+  #banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .main-info {
+    margin-left: 0;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    text-align: center;
+    max-width: 60rem;
+  }
+ 
+
+  .astronaut-img{
+    margin: 5rem 0;
+    transform: translate(0, 0);
+  }
+
+  #banner header {
+    margin-left: 0;
+  }
+
+  #banner footer {
+    gap: 5rem;
+    flex-direction: column;
+  }
+
+  .informative-card1 img, .informative-card2 img, .informative-card3 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21.6rem;
+    margin-bottom: 2rem;
+   }
+  
+   .informative-card1 p, .informative-card2 p, .informative-card3 p {
+    text-align: center;
+   }
+
+  .informative-card3 p {
+    max-width: 21.6rem;
+  }
+
+  .mars-container {
+    background-position: 0 0;
+    background-size: 60rem;
+  }
+
+  .mars-info {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .mars-text {
+    text-align: center;
+  }
+
+  .learn-more {
+    justify-content: center;
+    flex-direction: column;
+    padding: 15rem 0;
+
+    margin-left: 0;
+
+    text-align: center;
+  }
+
+  .carrousel {
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+
+  form {
+    padding-bottom: 10rem;
+  }
+
+  .form-main-content {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 ;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  
+}
+
+
+@media (max-width: 640px) {
+  html {
+    font-size: 45%;
+  }
+  
+}
+
+@media (max-width: 580px) {
+  html {
+    font-size: 40%;
+  }
+  
+}
+
+@media (max-width: 385px) {
+  html {
+    font-size: 30%;
+  }
+  
 }
