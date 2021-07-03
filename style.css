@@ -11,6 +11,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
+  
 }
 
 body {
@@ -23,7 +24,6 @@ input {
 }
 
 /* BANNER */
-
 
 #banner header{
   margin-top: 2.4rem;
@@ -112,6 +112,11 @@ header img {
   background: linear-gradient(180deg, #040327 0%, #0D0E13 24.49%);
 }
 
+.stars-about {
+  background: url(assets/stars-about.svg);
+  background-size: cover;
+}
+
 .mars-container {
   padding-top: 7.5rem;
 
@@ -139,10 +144,10 @@ header img {
 }
 
 .mars-text h3 {
-    color: #F5D15F;
-    letter-spacing: 0.5rem;
-    font-size: 1.8rem;
-    font-weight: 500;
+  color: #F5D15F;
+  letter-spacing: 0.5rem;
+  font-size: 1.8rem;
+  font-weight: 500;
 }
 
 .mars-text h2 {
@@ -202,6 +207,11 @@ header img {
  
 #form-section {
   background: #0D0E13;
+}
+
+.form-container {
+  background: url(assets/stars-form.svg);
+  background-size: cover;
 }
 
 .form-main-content {
