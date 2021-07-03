@@ -1,6 +1,6 @@
 # SpaceY
 <p align="center">
-	<img src="https://user-images.githubusercontent.com/67246528/124210971-c1828880-dac2-11eb-8234-439bae1c8bc5.gif" alt="Codelândia" title="Codelândia">
+	<img src="https://user-images.githubusercontent.com/67246528/124368614-1516e280-dc39-11eb-90d4-63b89ca06518.png" alt="SpaceY" title="SpaceY">
 </p>
 
 ## Sobre   
