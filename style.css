@@ -10,9 +10,8 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
-
-
 
 body {
   background: #040327;
@@ -48,20 +47,20 @@ input {
 .text-info h2{
   color: #F5D15F;
   letter-spacing: 5px;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 .text-info h1{
   color: #FFF;
-  font-size: 62px;
+  font-size: 6.2rem;
   font-weight: 800;
 }
 
 .text-info p{
   margin-top: 20px;
   color: #D5D5DB;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 400;
 }
 
@@ -73,7 +72,7 @@ input {
   border-radius: 4px;
   color: #FFF;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 1.6rem;
   cursor: pointer;
 }
 
@@ -92,11 +91,13 @@ input {
 .informative-card1, .informative-card2 p {
   max-width: 216px;
   color: #D5D5DB;
+  font-size: 1.6rem;
 }
 
 .informative-card3 p {
   max-width: 164px;
   color: #D5D5DB;
+  font-size: 1.6rem;
 }
 
 /* ABOUT US */
@@ -107,6 +108,11 @@ input {
 
 .mars-container {
   padding-top: 75px;
+
+  background: url(assets/lineslines.svg);
+  background-repeat: no-repeat;
+  background-position: 0 150px;
+  background-size: 500px;
 }
 
 .mars-info {
@@ -124,37 +130,32 @@ input {
 .mars-text h3 {
     color: #F5D15F;
     letter-spacing: 5px;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
 .mars-text h2 {
-  font-size: 32px;
+  font-size: 3.2rem;
   color: #FFF;
   padding: 20px 0;
 }
 
 .mars-text p {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #D5D5DB;
   padding: 20px 0;
 }
 
-.mars {
-  z-index: 2;
-}
-
 .learn-more {
-
-  margin-top: 50px;
   margin-left: 104px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 150px 0 120px;
 }
 
 .simple-text h2{
-  font-size: 30px;
+  font-size: 3rem;
   color: #FFF;
   font-weight: 700;
 
@@ -165,6 +166,7 @@ input {
   color: #FF8C70;
   font-weight: 700;
   text-decoration: none;
+  font-size: 1.6rem;
 }
 
 .carrousel  {
@@ -190,7 +192,7 @@ input {
 }
 
 .form-container {
-  padding-top: 300px;
+  padding-top: 75px;
 }
 
 .form-main-content {
@@ -226,14 +228,14 @@ input {
 
 .content h3 {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 2.4rem;
   max-width: 250px;
 }
 
 .content p {
   font-family: 'Inter', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 1.4rem;
   max-width: 270px;
   opacity: 70%;
   padding: 10px 0;
@@ -241,7 +243,7 @@ input {
 
 .content label {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: #FFF;
 }
 
@@ -259,7 +261,7 @@ input {
   background: #E85937;
   border: none;
   border-radius: 5px;
-  font-size: 14px;
+  font-size: 1.4rem;
   cursor: pointer;
 }
 
@@ -327,7 +329,7 @@ li a {
   color: #FFF;
   font-family: 'Inter', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 .social-icons img {
@@ -338,3 +340,11 @@ li a {
 .smoke-img img{
   max-width: 100%;
 }
+
+/*MEDIA QUERIES*/
+
+/*Desktops: (min-width: 1281px)
+Laptops, desktops: (min-width: 1025px) and (max-width: 1280px)
+Tablets, ipads: (min-width: 768px) and (max-width: 1024px)
+Tablets de baixa resolução, celulares: (min-width: 482px) and (max-width: 767px)
+A maioria dos smartphones móveis: (min-width:320px) and (max-width: 480px)*/
