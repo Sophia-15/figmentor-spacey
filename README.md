@@ -4,7 +4,8 @@
 </p>
 
 ## Sobre   
-Este projeto foi desenvolvido a partir do design do Figmentor, que é uma websérie produzida pelo [Jonas Milan](https://www.instagram.com/jonasmilancc/) e pelo [Matheus Lima](https://www.instagram.com/mathlimadesign/), que tem o objetivo de mostrar a criação de interfaces no Figma e como desenvolvê-las no WordPress com o Elementor.
+Este projeto foi desenvolvido a partir do design do Figmentor, que é uma websérie produzida pelo **[Jonas Milan](https://www.instagram.com/jonasmilancc/)** e pelo **[Matheus Lima](https://www.instagram.com/mathlimadesign/)**, que tem o objetivo de mostrar a criação de interfaces no Figma e como desenvolvê-las no WordPress com o Elementor.
+
 ---
 
 ## Teste o projeto  
