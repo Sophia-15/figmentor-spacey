@@ -115,6 +115,7 @@ header img {
 .stars-about {
   background: url(assets/stars-about.svg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .mars-container {
@@ -212,6 +213,7 @@ header img {
 .form-container {
   background: url(assets/stars-form.svg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .form-main-content {
